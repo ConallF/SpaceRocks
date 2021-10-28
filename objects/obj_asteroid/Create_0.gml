@@ -1,5 +1,5 @@
 sprite_index = choose(
-spr_AsteroidSmall,spr_AsteroidMedium,spr_AsteroidSmall
+spr_AsteroidSmall,spr_AsteroidMedium,spr_AsteroidLarge
 );
 
 direction = irandom_range(0,359);
