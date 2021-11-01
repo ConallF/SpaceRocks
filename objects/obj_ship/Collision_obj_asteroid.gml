@@ -4,6 +4,10 @@ with(obj_game){
 alarm[1] = room_speed;
 }
 
+if(audio_is_playing(msc_song)){
+		audio_stop_sound(msc_song);
+	}
+
 instance_destroy();
 
 repeat(10){
